@@ -16,7 +16,7 @@
 	</div>
 </template>
 
-<style lang="scss" module>
+<style lang="scss" scoped>
 .f4pan-action-popup {
 	position: fixed;
 	right: 20px;
