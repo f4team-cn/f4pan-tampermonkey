@@ -2,8 +2,6 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import 'vuetify/lib/styles/main.sass';
 import { createVuetify } from 'vuetify';
-import * as components from 'vuetify/components';
-import * as directives from 'vuetify/directives';
 
 (() => {
 	const app = document.createElement('div');
@@ -12,10 +10,6 @@ import * as directives from 'vuetify/directives';
 	app.style.height = '100%';
 	document.body.append(app);
 
-	const vuetify = createVuetify({
-		components,
-		directives,
-	});
-
+	const vuetify = createVuetify({});
 	createApp(App).use(vuetify).mount(app);
 })();

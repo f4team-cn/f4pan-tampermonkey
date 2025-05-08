@@ -1,6 +1,6 @@
 {
   "name": "f4pan-tampermonkey",
-  "version": "0.0.0",
+  "version": "1.0.0-beta.0",
   "type": "module",
   "author": {
     "email": "team@f4team.cn",
@@ -34,6 +34,7 @@
     "typescript": "^5.7.2",
     "vite": "^6.0.5",
     "vite-plugin-monkey": "^5.0.3",
+    "vite-plugin-vuetify": "^2.1.1",
     "vue-tsc": "^2.2.0"
   }
 }
